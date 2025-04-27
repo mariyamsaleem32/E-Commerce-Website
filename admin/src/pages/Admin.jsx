@@ -1,8 +1,11 @@
+import Sidebar from '../sidebar/sidebar';
 import './admin.css';
 
 const Admin = () => {
     return(
-        <div className="admin"></div>
+        <div className="admin">
+            <Sidebar/>
+        </div>
     )
 }
 
