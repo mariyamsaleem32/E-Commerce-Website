@@ -1,7 +1,7 @@
 import { Router } from "express";
 import upload from "../storage/upload.js";
 import {ENV} from '../constant/index.js';
-import AddProduct from '../controllers/productController.js';
+import {AddProduct,RemoveProduct} from '../controllers/productController.js';
 
 const route = Router();
 
@@ -11,5 +11,6 @@ route.post('/upload', upload.single('product'), (req, res) => {
 });
 
 route.post('/product',AddProduct);
+route.delete('/remove/product',RemoveProduct);
 
 export default route;
