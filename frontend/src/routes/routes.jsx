@@ -7,9 +7,9 @@ import Cart from "../pages/cart/index.jsx";
 import Login from '../components/login/index.jsx';
 import Signup from '../components/signup/index.jsx';
 import Footer from "../components/footer/index.jsx";
-import men_banner from '../assets/banner_mens.png';
-import women_banner from '../assets/banner_women.png';
-import kid_banner from '../assets/banner_kids.png';
+import men_banner from '../../../admin/src/assets/banner_mens.png';
+import women_banner from '../../../admin/src/assets/banner_women.png';
+import kid_banner from '../../../admin/src/assets/banner_kids.png';
 
 const Routing = () => {
     return(

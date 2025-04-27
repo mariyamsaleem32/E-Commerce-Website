@@ -1,7 +1,7 @@
-import footer_logo from '../../assets/logo_big.png';
-import instagram_icon from '../../assets/instagram_icon.png';
-import pintester_icon from '../../assets/pintester_icon.png';
-import whatsapp_icon from '../../assets/whatsapp_icon.png';
+import footer_logo from '../../../../admin/src/assets/logo_big.png';
+import instagram_icon from '../../../../admin/src/assets/instagram_icon.png';
+import pintester_icon from '../../../../admin/src/assets/pintester_icon.png';
+import whatsapp_icon from '../../../../admin/src/assets/whatsapp_icon.png';
 import './footer.css';
 const Footer = () => {
     return(

@@ -1,4 +1,4 @@
-import new_collection from '../../assets/new_collections';
+import new_collection from '../../../../admin/src/assets/new_collections.js';
 import Item from '../item/index.jsx';
 import './styles.css'
 

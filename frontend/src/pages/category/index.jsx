@@ -1,7 +1,7 @@
 import './category.css';
 import { useContext } from 'react';
 import { ShopContext} from '../../components/shopcontext/index.jsx';
-import dropdown_icon from '../../assets/dropdown_icon.png';
+import dropdown_icon from '../../../../admin/src/assets/dropdown_icon.png';
 import Item from '../item/index.jsx';
 
 const Category = (props) => {    

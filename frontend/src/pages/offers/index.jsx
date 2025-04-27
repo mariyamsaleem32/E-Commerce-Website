@@ -1,5 +1,5 @@
 import './offers.css';
-import exclusive_image from '../../assets/exclusive_image.png';
+import exclusive_image from '../../../../admin/src/assets/exclusive_image.png';
 
 const Offers = () => {
     return(

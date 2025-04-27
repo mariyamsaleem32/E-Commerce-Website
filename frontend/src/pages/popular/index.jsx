@@ -1,5 +1,5 @@
 import './popular.css';
-import data_product from '../../assets/data';
+import data_product from '../../../../admin/src/assets/data.js';
 import Item from '../item/index.jsx'
 const Popular = () => {
   return (

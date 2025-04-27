@@ -1,7 +1,7 @@
 
 import './navbar.css';
-import logo from '../../assets/logo.png';
-import cart_icon from '../../assets/cart_icon.png';
+import logo from '../../../../admin/src/assets/logo.png';
+import cart_icon from '../../../../admin/src/assets/cart_icon.png';
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../shopcontext/index.jsx';
