@@ -49,4 +49,22 @@ const RemoveProduct = async (req, res) => {
     }
   };
 
-export {AddProduct,RemoveProduct};
+// Get all products
+const GetProduct = async (req, res) => {
+    try {
+      const { page = 1, limit = 10 } = req.query;  
+  
+      const allProducts = await Product.find()
+        .skip((page - 1) * limit)  
+        .limit(Number(limit));     
+
+      console.log("all products fetched");
+      res.status(200).json(allProducts);
+      
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({ success: false, error: "Internal server error" });
+    }
+  };
+  
+export {AddProduct,RemoveProduct,GetProduct};
