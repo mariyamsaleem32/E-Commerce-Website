@@ -12,7 +12,6 @@ const connectToDB=async()=>{
     mongoose.connection.on("error", () => {
       console.error(chalk.bold.bgRed("Error in connecting MongoDB"));
     });
-
 }
 
 mongoose.connect(url)
